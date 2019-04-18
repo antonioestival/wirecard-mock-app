@@ -1,0 +1,31 @@
+{
+  "name": "wirecard-mock-app",
+  "version": "1.0.0",
+  "description": "Wirecard Mock Service for WebHook",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonioestival/wirecard-mock-app.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "api",
+    "mock",
+    "wirecard"
+  ],
+  "author": "Antonio Estival Neto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonioestival/wirecard-mock-app/issues"
+  },
+  "homepage": "https://github.com/antonioestival/wirecard-mock-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}

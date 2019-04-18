@@ -1,0 +1,16 @@
+{
+  "name": "Wirecard Mock",
+  "description": "Serviço Mock para Receber WebHook Events",
+  "keywords": [
+    "Node",
+    "Express"
+  ],
+  "repository": "https://github.com/antonioestival/wirecard-mock-app.git",
+  "success_url": "/",
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
