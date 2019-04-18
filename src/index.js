@@ -13,6 +13,7 @@ app.get('/', (req, res) => {
 
 app.post('/order', (req, res) => {
   console.log("\n\n\n=========================================================================================== ")
+  console.log("====== /order ")
   console.log("====== req.headers: ")
   console.log(req.headers)
   console.log("====== req.params: ")
@@ -24,6 +25,7 @@ app.post('/order', (req, res) => {
 
 app.post('/payment', (req, res) => {
   console.log("\n\n\n=========================================================================================== ")
+  console.log("====== /payment ")
   console.log("====== req.headers: ")
   console.log(req.headers)
   console.log("====== req.params: ")
@@ -36,6 +38,7 @@ app.post('/payment', (req, res) => {
 
 app.post('/refund', (req, res) => {
   console.log("\n\n\n=========================================================================================== ")
+  console.log("====== /refund ")
   console.log("====== req.headers: ")
   console.log(req.headers)
   console.log("====== req.params: ")
