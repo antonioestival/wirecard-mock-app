@@ -19,7 +19,7 @@ app.post('/order', (req, res) => {
   console.log("====== req.params: ")
   console.log(req.params)
   console.log("====== req.body: ")
-  console.log(req.body)  
+  console.log(JSON.stringify(req.body, null, 4));
   res.status(200).json("OK")
 })
 
@@ -31,7 +31,7 @@ app.post('/payment', (req, res) => {
   console.log("====== req.params: ")
   console.log(req.params)
   console.log("====== req.body: ")
-  console.log(req.body)
+  console.log(JSON.stringify(req.body, null, 4));
 
   res.status(200).json("OK")
 })
@@ -44,7 +44,7 @@ app.post('/refund', (req, res) => {
   console.log("====== req.params: ")
   console.log(req.params)
   console.log("====== req.body: ")
-  console.log(req.body)
+  console.log(JSON.stringify(req.body, null, 4));
 
   res.status(200).json("OK")
 })
